@@ -2,7 +2,7 @@
 // 課題１
 
 $name = "tomoya";
-if($name ="tomoya") {
+if($name == "mike") {
     echo "私はあなたの名前です。";
 } else {
     echo "あなたの名前ではありません。";
@@ -11,7 +11,7 @@ if($name ="tomoya") {
 // 課題２
 
 $total = 0;
-for($i = 0; $i <= 10000; $i++)  {
+for($i = 1; $i <= 10000; $i++)  {
     $total += $i;
 }
 echo $total;
